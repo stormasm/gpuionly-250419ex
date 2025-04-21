@@ -1,14 +1,11 @@
 
+This repo was created because the bp1 branch concept was not working for some reason
+with the example code running in the same repo as gpui when the branch *bp1* was referenced
+from the gpuiex repo.
 
-If you want to just compile against this repo and not ever build this repo
-but simply link to it then the *main* branch is for you.
+So we got this repo working which does work.
 
-If you want to test the examples in this repo then you want to be on the *bp1* branch
+This repo has the gpui code along with the examples that run standalone in this repo.
 
-### More Details
-
-- *bp1* branch is for running examples within this repo
-- if you want to run the examples in a different repo and reference this repo then you do not need to be on the *bp1* branch which includes *three* (3) extra crates including
-- http_client_tls
-- reqwest_client
-- util_macros
+This repo also works with an examples repo lodged in another repo and *gpui* is referenced
+here both locally and via github.
